@@ -1,0 +1,20 @@
+{
+	"name": "simple-node-proxy",
+	"version": "1.0.0",
+	"description": "Simple node proxy",
+	"main": "index.js",
+	"engines": {
+		"npm": ">=8.0.0",
+		"node": ">=16.11.0"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"start:dev": "env-cmd -f .env.development npm start"
+	},
+	"author": "Alex Zinkevych",
+	"license": "ISC",
+	"dependencies": {
+		"env-cmd": "^10.1.0",
+		"http-proxy": "^1.18.1"
+	}
+}
